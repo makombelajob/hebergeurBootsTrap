@@ -3,31 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Hebergement</title>
     </head>
     <body>
         <header>
             <nav>
                 <a href="#">Logo</a>
-                <ul>
+                <ul class="open">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">A propos</a></li>
                     <li><a href="#">Conttact</a></li>
                 </ul>
             </nav>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </header>
         <main>
+            <!-- First child -->
             <section>
                 <article>
                     <article>
-                        <p>🔥Ne manquez pas les économies à durée limitée :</p>
-                        <p>économies de 20%</p>
+                        <p>🔥Ne manquez pas les économies à durée limitée :
+                            <span>Economies de 20%</span></p>
+
                         <h1>Hébergement Web pour tous</h1>
                     </article>
                     <article>
                         <button>Commencer</button>
                         <p>A part de seulement</p>
-                        <p>4,75 €/mois*</p>
+                        <span>4,75 €/mois*</span>
                     </article>
                 </article>
                 <article>
@@ -37,8 +51,9 @@
                     </figure>
                 </article>
             </section>
+            <!-- Seconde child -->
             <section>
-                <h2>Choisissez votre paln d'Hebergement Web idéal</h2>
+                <h2>Choisissez votre plan d'Hebergement Web idéal</h2>
                 <article>
                     <figure>
                         <img src="media/download-1.png"
@@ -47,6 +62,9 @@
                     </figure>
                     <p>Hébergement Web</p>
                     <p>3,75 €/mois*</p>
+                    <figure>
+                        <img src="media/row.png" alt="Flèche bas">
+                    </figure>
                 </article>
                 <article>
                     <figure>
@@ -55,6 +73,9 @@
                     </figure>
                     <p>Hébergement Wordpress</p>
                     <p>4,60 €/mois*</p>
+                    <figure>
+                        <img src="media/row.png" alt="Flèche bas">
+                    </figure>
                 </article>
                 <article>
                     <figure>
@@ -63,6 +84,9 @@
                     </figure>
                     <p>Hébergement VPS</p>
                     <p>33.99 €/mois*</p>
+                    <figure>
+                        <img src="media/row.png" alt="Flèche bas">
+                    </figure>
                 </article>
                 <article>
                     <figure>
@@ -71,8 +95,12 @@
                     </figure>
                     <p>Hébergement Dédié</p>
                     <p>145.99 €/mois*</p>
+                    <figure>
+                        <img src="media/row.png" alt="Flèche bas">
+                    </figure>
                 </article>
             </section>
+            <!-- Third child -->
             <section>
                 <article>
                     <h3>Domaine gratuit</h3>
@@ -110,6 +138,7 @@
                         necessitatibus iusto aut!</p>
                 </article>
             </section>
+            <!-- Footh child -->
             <section>
                 <article>
                     <figure>
@@ -119,14 +148,17 @@
                     </figure>
                 </article>
                 <article>
-                    <h2>Assistance 24 h/24, 7j/7 et 365 j/an</h2>
+                    <h2>Assistance 24 h/24, 7 j/7 et 365 j/an</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Consequuntur, asperiores unde! Omnis repudiandae ullam
                         eaque fuga perferendis aut earum quia, maxime, maiores a
                         nesciunt amet incidunt explicabo nostrum recusandae
                         magnam. Sapiente natus quas magni, delectus enim unde
                         nobis nisi fuga.</p>
-                    <button>Commencer</button>
+                    <button class="button">Commencer</button>
+                    <div>
+                        <span></span>
+                    </div>
                 </article>
                 <article>
                     <figure>
@@ -147,48 +179,73 @@
                     </figure>
                 </article>
             </section>
+            <!-- Fifth child -->
             <section>
                 <h2>Choisissez votre plan d'hébergement</h2>
                 <article>
-                    <h4>Plan Bsic</h4>
-                    <p>25€ par mois</p>
-                    <p>✅ Assistance illimitée</p>
-                    <p>✅ 5 Go d'espace serveur</p>
-                    <p>✅ 2 utilisateurs par projet</p>
-                    <p>❌Intégration de messagerie électronique</p>
-                    <p>❌Téléchargement illimité</p>
-                    <button>Choisir le plan</button>
+                    <h4>Plan Basic</h4>
+                    <div class="inside">
+                        <p>
+                            <span><strong>25€</strong> par mois</span>
+                        </p>
+                        <p>✅ Assistance illimitée</p>
+                        <p>✅ 5 Go d'espace serveur</p>
+                        <p>✅ 2 utilisateurs par projet</p>
+                        <p>❌Intégration de messagerie électronique</p>
+                        <p>❌Téléchargement illimité</p>
+                    </div>
+                    <div>
+                        <button class="btn">Choisir le plan</button>
+                    </div>
                 </article>
                 <article>
                     <h4>Plan Pro</h4>
-                    <p>25€ par mois</p>
-                    <p>✅ Assistance illimitée</p>
-                    <p>✅ 5 Go d'espace serveur</p>
-                    <p>✅ 2 utilisateurs par projet</p>
-                    <p>✅Intégration de messagerie électronique</p>
-                    <p>❌Téléchargement illimité</p>
-                    <button>Choisir le plan</button>
+                    <div class="inside">
+                        <p>
+                            <span><strong>25€</strong> par mois</span>
+                        </p>
+                        <p>✅ Assistance illimitée</p>
+                        <p>✅ 5 Go d'espace serveur</p>
+                        <p>✅ 2 utilisateurs par projet</p>
+                        <p>✅Intégration de messagerie électronique</p>
+                        <p>❌Téléchargement illimité</p>
+                    </div>
+                    <div>
+                        <button class="btn">Choisir le plan</button>
+                    </div>
                 </article>
                 <article>
                     <h4>Plan premium</h4>
-                    <p>25€ par mois</p>
-                    <p>✅ Assistance illimitée</p>
-                    <p>✅ 5 Go d'espace serveur</p>
-                    <p>✅ 2 utilisateurs par projet</p>
-                    <p>✅Intégration de messagerie électronique</p>
-                    <p>✅Téléchargement illimité</p>
-                    <button>Choisir le plan</button>
+                    <div class="inside">
+                        <p>
+                            <span><strong>25€</strong> par mois</span>
+                        </p>
+                        <p>✅ Assistance illimitée</p>
+                        <p>✅ 5 Go d'espace serveur</p>
+                        <p>✅ 2 utilisateurs par projet</p>
+                        <p>✅Intégration de messagerie électronique</p>
+                        <p>✅Téléchargement illimité</p>
+                    </div>
+                    <div>
+                        <button class="btn">Choisir le plan</button>
+                    </div>
                 </article>
             </section>
+            <!-- Sixth child -->
             <section>
                 <article>
                     <h2>Migrez Gratuitement vers un serveur dédié</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum deserunt, est distinctio eos eligendi doloribus tempora corrupti quasi, optio at quis nulla illo, provident iusto odio aliquam. Assumenda, aperiam facilis?</p>
-                    <button>Commencer</button>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Voluptatum deserunt, est distinctio eos eligendi
+                        doloribus tempora corrupti quasi, optio at quis nulla
+                        illo, provident iusto odio aliquam. Assumenda, aperiam
+                        facilis?</p>
+                    <button class="button">Commencer</button>
                 </article>
                 <article>
                     <figure>
-                        <img src="media/download-6.png" alt="imade d'une admin" width="100%" height="auto">
+                        <img src="media/download-6.png" alt="imade d'une admin"
+                            width="100%" height="auto">
                     </figure>
                 </article>
             </section>
