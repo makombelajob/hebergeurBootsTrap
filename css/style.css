@@ -184,13 +184,17 @@ main {
                 display: block;
                 >p:first-of-type {
                     color: var(--clr-bg-1);
+                    position: relative;
                     >span:first-of-type{
-                        font-size: 2rem;
+                        font-size: 5rem;
                         font-weight: 700;
                     } 
                     >span:last-of-type{
-                        font-size: 2rem;
+                        font-size: 1rem;
                         text-transform: uppercase;
+                        position : absolute;
+                        top : 90%;
+                        left: 0;
                     }    
                 }
             }
@@ -228,4 +232,44 @@ footer {
     color: var(--clr-white);
     background-color: var(--clr-footer);
     padding: 2rem;
+}
+
+/* tablet mode */
+@media (min-width: 768px){
+    :root{
+        font-size: 15px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    #hero{
+        padding: 5rem;
+        display: var(--dsp-grid);
+        grid-template-columns: 1fr 1fr;
+        article:first-of-type{
+            :nth-child(2){
+                display: var(--dsp-flex);
+                gap : 1rem;
+                position: relative;
+                span{
+                    margin-top: 2rem;
+                    position: absolute;
+                    top : 40%;
+                    left: 60%;
+                }
+            }
+        }
+        article:last-of-type{
+            figure {
+                width: 100%;
+                margin-top: 5rem;
+                img{
+                    height: 100%;
+                    object-fit :cover;
+                }
+            }
+        }
+    }
 }
