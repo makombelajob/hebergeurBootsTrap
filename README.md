@@ -25,7 +25,7 @@ The website consists of the following sections:
 ## Installation and Usage
 1. Clone the project:
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/hebergeurBoostTrap.git
    ```
 2. Open the `index.html` file in a browser.
 3. Ensure the CSS and JS files are correctly linked.
@@ -39,8 +39,7 @@ The website consists of the following sections:
 - Enhancing accessibility and mobile compatibility.
 
 ## Author
-- Name: [Your Name]
-- Contact: [Your Email]
+- Name: [Job MAKOMBELA]
 
 ## License
 This project is licensed under the MIT License.
