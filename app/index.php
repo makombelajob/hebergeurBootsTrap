@@ -64,7 +64,7 @@
 				<div class="col-12 fs-1 fw-semibold my-3 ">
 					<h2>Choisissez votre plan d'hébergement Web idéal</h2>
 				</div>
-				<div class="row text-center">
+				<div class="row text-center mx-0">
 					<article class="col-lg-3 card my-3 py-3 bg-warning">
 						<img class="w-25 card-img-top mx-auto" src="media/download-1.png" alt="image base de donnée">
 						<div class="card-body">
@@ -163,47 +163,51 @@
 						</article>
 					</div>
 				</div>
-				<div class="col-12">
-					<div class="row">
-						<article class="col-lg-3">
-							<button class="col-2 btn btn-danger fs-1 m-2">
-								<i class="fas fa-phone-volume"></i>
-							</button>
-							<div class="col-9 fs-1 fw-semibold">
-								<p class="pe-3">Appelez-nous
-									<span class="p-3">(010) 456 78 000</span>
-								</p>
-							</div>
+				<div class="col-12 text-start">
+					<div class="row mx-0">
+						<article class="col-12">
+							<div class="row">
+                                <button class="col-2 btn btn-danger fs-1 m-2">
+                                    <i class="fas fa-phone-volume"></i>
+                                </button>
+                                <div class="col-8 fs-1 fw-semibold">
+                                    <p class="">Appelez-nous</p>
+                                    <span class="p-3">(010) 456 78 000</span>
+                                </div>
+                            </div>
 						</article>
-						<article class="col-lg-3">
-							<button class="col-2 btn btn-danger fs-1 m-2">
-								<i class="fa fa-commenting-o" aria-hidden="true"></i>
-							</button>
-							<div class="col-9 fs-1 fw-semibold">
-								<p>Discuter avec Nous
-									<span>chat en direct</span>
-								</p>
-							</div>
+						<article class="col-12">
+							<div class="row">
+                                <button class="col-2 btn btn-danger fs-1 m-2">
+                                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                                </button>
+                                <div class="col-8 fs-1 fw-semibold">
+                                    <p>Discuter avec Nous</p>
+                                    <span>chat en direct</span>
+                                </div>
+                            </div>
 						</article>
-						<article class="col-lg-3">
-							<button class="col-2 btn btn-danger fs-1 m-2">
-								<i class="fa-solid fa-x"></i>
-							</button>
-							<div class="col-9 fs-1 fw-semibold">
-								<p>Discuter sur X
-									<span>@HostSupport</span>
-								</p>
-							</div>
+						<article class="col-12">
+							<div class="row">
+                                <button class="col-2 btn btn-danger fs-1 m-2">
+                                    <i class="fa-solid fa-x"></i>
+                                </button>
+                                <div class="col-8 fs-1 fw-semibold">
+                                    <p>Discuter sur X</p>
+                                    <span>@HostSupport</span>
+                                </div>
+                            </div>
 						</article>
-						<article class="col-lg-3">
-							<button class="col-2 btn btn-danger fs-1 m-2">
-								<i class="fa-regular fa-lightbulb"></i>
-							</button>
-							<div>
-								<p>Trouver des reponses
-									<span>Base de connection</span>
-								</p>
-							</div>
+						<article class="col-12">
+							<div class="row">
+                                <button class="col-2 btn btn-danger fs-1 m-2">
+                                    <i class="fa-regular fa-lightbulb"></i>
+                                </button>
+                                <div class="col-8 fs-1 fw-semibold">
+                                    <p>Trouver des reponses</p>
+                                    <span>Base de connection</span>
+                                </div>
+                            </div>
 						</article>
 					</div>
 				</div>
@@ -273,25 +277,25 @@
 		<!-- Sixth child -->
 		<section class=container>
 			<div class="row">
-				<article>
-					<h2>Migrez Gratuitement vers un serveur dédié</h2>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+				<article class="col-12">
+					<h2 class="fs-1 fw-semibold my-3 text-center">Migrez Gratuitement vers un serveur dédié</h2>
+					<p class="fs-3 my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 						Voluptatum deserunt, est distinctio eos eligendi
 						doloribus tempora corrupti quasi, optio at quis nulla
 						illo, provident iusto odio aliquam. Assumenda, aperiam
 						facilis?</p>
-					<button class="button btn-2">Commencer</button>
+					<button class="btn btn-warning fs-3 p-3 my-5">Commencer</button>
 				</article>
-				<article>
-					<figure>
-						<img src="media/download-6.png" alt="imade d'une admin" width="100%" height="auto">
-					</figure>
+				<article class="col-12 my-5">
+						<img class="w-100" src="media/download-6.png" alt="imade d'une admin" width="100%" height="auto">
 				</article>
 			</div>
 		</section>
 	</main>
-	<footer>
-		<p>Copyright 2025 - Mentions Légales</p>
+	<footer class="container">
+		<div class="row p-5 my-5 bg-dark">
+			<p class="text-center text-white">Copyright 2025 - Mentions Légales</p>
+		</div>
 	</footer>
 </body>
 
